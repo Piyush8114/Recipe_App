@@ -66,9 +66,15 @@ class _Splash_ScreenState extends State<Splash_Screen> {
                     ),
                   ],
                 ),
-              ))
+              )),
+          Positioned(
+            bottom: 20,
+            left: 10,
+            right: 10,
+            child:Center(child: Text("Developed By Developer's Studio",textAlign: TextAlign.center,style: TextStyle(color: CupertinoColors.white,fontSize: 16,fontWeight: FontWeight.bold),),),)
         ],
       ),
+      // bottomSheet: Center(child: Text("Developer Group",textAlign: TextAlign.center,style: TextStyle(color: CupertinoColors.white,fontSize: 16),),),
     );
   }
 }

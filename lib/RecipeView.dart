@@ -13,8 +13,7 @@ class RecipeView extends StatefulWidget {
 class _RecipeViewState extends State<RecipeView> {
   bool isLoading = true;
   late String finalUrl;
-  final Completer<WebViewController> controller =
-  Completer<WebViewController>();
+  final Completer<WebViewController> controller = Completer<WebViewController>();
 
   @override
   void initState() {

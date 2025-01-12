@@ -13,7 +13,7 @@ class  RecipeModel{
         appLabel:recipe["label"],
         appimageUrl:recipe["image"],
         appcalories:recipe["calories"],
-        appurl:recipe["url"]
+        appurl:recipe["url"],
     );
   }
 }
